@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC821A5A293BD63900887D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC821A59293BD63900887D77 /* AppDelegate.swift */; };
+		FC821A5C293BD63900887D77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC821A5B293BD63900887D77 /* SceneDelegate.swift */; };
+		FC821A5E293BD63900887D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC821A5D293BD63900887D77 /* ViewController.swift */; };
+		FC821A61293BD63900887D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC821A5F293BD63900887D77 /* Main.storyboard */; };
+		FC821A63293BD63B00887D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC821A62293BD63B00887D77 /* Assets.xcassets */; };
+		FC821A66293BD63B00887D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC821A64293BD63B00887D77 /* LaunchScreen.storyboard */; };
+		FC821A71293BD63B00887D77 /* Netology_IB_InstrumentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC821A70293BD63B00887D77 /* Netology_IB_InstrumentsTests.swift */; };
+		FC821A7B293BD63B00887D77 /* Netology_IB_InstrumentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC821A7A293BD63B00887D77 /* Netology_IB_InstrumentsUITests.swift */; };
+		FC821A7D293BD63B00887D77 /* Netology_IB_InstrumentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC821A7C293BD63B00887D77 /* Netology_IB_InstrumentsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC821A6D293BD63B00887D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC821A4E293BD63900887D77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC821A55293BD63900887D77;
+			remoteInfo = Netology_IB_Instruments;
+		};
+		FC821A77293BD63B00887D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC821A4E293BD63900887D77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC821A55293BD63900887D77;
+			remoteInfo = Netology_IB_Instruments;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC821A56293BD63900887D77 /* Netology_IB_Instruments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netology_IB_Instruments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC821A59293BD63900887D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC821A5B293BD63900887D77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC821A5D293BD63900887D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC821A60293BD63900887D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC821A62293BD63B00887D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC821A65293BD63B00887D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC821A67293BD63B00887D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC821A6C293BD63B00887D77 /* Netology_IB_InstrumentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Netology_IB_InstrumentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC821A70293BD63B00887D77 /* Netology_IB_InstrumentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netology_IB_InstrumentsTests.swift; sourceTree = "<group>"; };
+		FC821A76293BD63B00887D77 /* Netology_IB_InstrumentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Netology_IB_InstrumentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC821A7A293BD63B00887D77 /* Netology_IB_InstrumentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netology_IB_InstrumentsUITests.swift; sourceTree = "<group>"; };
+		FC821A7C293BD63B00887D77 /* Netology_IB_InstrumentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netology_IB_InstrumentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC821A53293BD63900887D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC821A69293BD63B00887D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC821A73293BD63B00887D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC821A4D293BD63900887D77 = {
+			isa = PBXGroup;
+			children = (
+				FC821A58293BD63900887D77 /* Netology_IB_Instruments */,
+				FC821A6F293BD63B00887D77 /* Netology_IB_InstrumentsTests */,
+				FC821A79293BD63B00887D77 /* Netology_IB_InstrumentsUITests */,
+				FC821A57293BD63900887D77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC821A57293BD63900887D77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC821A56293BD63900887D77 /* Netology_IB_Instruments.app */,
+				FC821A6C293BD63B00887D77 /* Netology_IB_InstrumentsTests.xctest */,
+				FC821A76293BD63B00887D77 /* Netology_IB_InstrumentsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC821A58293BD63900887D77 /* Netology_IB_Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				FC821A59293BD63900887D77 /* AppDelegate.swift */,
+				FC821A5B293BD63900887D77 /* SceneDelegate.swift */,
+				FC821A5D293BD63900887D77 /* ViewController.swift */,
+				FC821A5F293BD63900887D77 /* Main.storyboard */,
+				FC821A62293BD63B00887D77 /* Assets.xcassets */,
+				FC821A64293BD63B00887D77 /* LaunchScreen.storyboard */,
+				FC821A67293BD63B00887D77 /* Info.plist */,
+			);
+			path = Netology_IB_Instruments;
+			sourceTree = "<group>";
+		};
+		FC821A6F293BD63B00887D77 /* Netology_IB_InstrumentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC821A70293BD63B00887D77 /* Netology_IB_InstrumentsTests.swift */,
+			);
+			path = Netology_IB_InstrumentsTests;
+			sourceTree = "<group>";
+		};
+		FC821A79293BD63B00887D77 /* Netology_IB_InstrumentsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC821A7A293BD63B00887D77 /* Netology_IB_InstrumentsUITests.swift */,
+				FC821A7C293BD63B00887D77 /* Netology_IB_InstrumentsUITestsLaunchTests.swift */,
+			);
+			path = Netology_IB_InstrumentsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC821A55293BD63900887D77 /* Netology_IB_Instruments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC821A80293BD63B00887D77 /* Build configuration list for PBXNativeTarget "Netology_IB_Instruments" */;
+			buildPhases = (
+				FC821A52293BD63900887D77 /* Sources */,
+				FC821A53293BD63900887D77 /* Frameworks */,
+				FC821A54293BD63900887D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Netology_IB_Instruments;
+			productName = Netology_IB_Instruments;
+			productReference = FC821A56293BD63900887D77 /* Netology_IB_Instruments.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC821A6B293BD63B00887D77 /* Netology_IB_InstrumentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC821A83293BD63B00887D77 /* Build configuration list for PBXNativeTarget "Netology_IB_InstrumentsTests" */;
+			buildPhases = (
+				FC821A68293BD63B00887D77 /* Sources */,
+				FC821A69293BD63B00887D77 /* Frameworks */,
+				FC821A6A293BD63B00887D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC821A6E293BD63B00887D77 /* PBXTargetDependency */,
+			);
+			name = Netology_IB_InstrumentsTests;
+			productName = Netology_IB_InstrumentsTests;
+			productReference = FC821A6C293BD63B00887D77 /* Netology_IB_InstrumentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC821A75293BD63B00887D77 /* Netology_IB_InstrumentsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC821A86293BD63B00887D77 /* Build configuration list for PBXNativeTarget "Netology_IB_InstrumentsUITests" */;
+			buildPhases = (
+				FC821A72293BD63B00887D77 /* Sources */,
+				FC821A73293BD63B00887D77 /* Frameworks */,
+				FC821A74293BD63B00887D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC821A78293BD63B00887D77 /* PBXTargetDependency */,
+			);
+			name = Netology_IB_InstrumentsUITests;
+			productName = Netology_IB_InstrumentsUITests;
+			productReference = FC821A76293BD63B00887D77 /* Netology_IB_InstrumentsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC821A4E293BD63900887D77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FC821A55293BD63900887D77 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FC821A6B293BD63B00887D77 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FC821A55293BD63900887D77;
+					};
+					FC821A75293BD63B00887D77 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FC821A55293BD63900887D77;
+					};
+				};
+			};
+			buildConfigurationList = FC821A51293BD63900887D77 /* Build configuration list for PBXProject "Netology_IB_Instruments" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC821A4D293BD63900887D77;
+			productRefGroup = FC821A57293BD63900887D77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC821A55293BD63900887D77 /* Netology_IB_Instruments */,
+				FC821A6B293BD63B00887D77 /* Netology_IB_InstrumentsTests */,
+				FC821A75293BD63B00887D77 /* Netology_IB_InstrumentsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC821A54293BD63900887D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC821A66293BD63B00887D77 /* LaunchScreen.storyboard in Resources */,
+				FC821A63293BD63B00887D77 /* Assets.xcassets in Resources */,
+				FC821A61293BD63900887D77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC821A6A293BD63B00887D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC821A74293BD63B00887D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC821A52293BD63900887D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC821A5E293BD63900887D77 /* ViewController.swift in Sources */,
+				FC821A5A293BD63900887D77 /* AppDelegate.swift in Sources */,
+				FC821A5C293BD63900887D77 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC821A68293BD63B00887D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC821A71293BD63B00887D77 /* Netology_IB_InstrumentsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC821A72293BD63B00887D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC821A7B293BD63B00887D77 /* Netology_IB_InstrumentsUITests.swift in Sources */,
+				FC821A7D293BD63B00887D77 /* Netology_IB_InstrumentsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC821A6E293BD63B00887D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC821A55293BD63900887D77 /* Netology_IB_Instruments */;
+			targetProxy = FC821A6D293BD63B00887D77 /* PBXContainerItemProxy */;
+		};
+		FC821A78293BD63B00887D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC821A55293BD63900887D77 /* Netology_IB_Instruments */;
+			targetProxy = FC821A77293BD63B00887D77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC821A5F293BD63900887D77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC821A60293BD63900887D77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC821A64293BD63B00887D77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC821A65293BD63B00887D77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC821A7E293BD63B00887D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC821A7F293BD63B00887D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC821A81293BD63B00887D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 527U829H6E;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexKolch.Netology-IB-Instruments";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC821A82293BD63B00887D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 527U829H6E;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexKolch.Netology-IB-Instruments";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC821A84293BD63B00887D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 527U829H6E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexKolch.Netology-IB-InstrumentsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netology_IB_Instruments.app/Netology_IB_Instruments";
+			};
+			name = Debug;
+		};
+		FC821A85293BD63B00887D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 527U829H6E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexKolch.Netology-IB-InstrumentsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netology_IB_Instruments.app/Netology_IB_Instruments";
+			};
+			name = Release;
+		};
+		FC821A87293BD63B00887D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 527U829H6E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexKolch.Netology-IB-InstrumentsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Netology_IB_Instruments;
+			};
+			name = Debug;
+		};
+		FC821A88293BD63B00887D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 527U829H6E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexKolch.Netology-IB-InstrumentsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Netology_IB_Instruments;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC821A51293BD63900887D77 /* Build configuration list for PBXProject "Netology_IB_Instruments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC821A7E293BD63B00887D77 /* Debug */,
+				FC821A7F293BD63B00887D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC821A80293BD63B00887D77 /* Build configuration list for PBXNativeTarget "Netology_IB_Instruments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC821A81293BD63B00887D77 /* Debug */,
+				FC821A82293BD63B00887D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC821A83293BD63B00887D77 /* Build configuration list for PBXNativeTarget "Netology_IB_InstrumentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC821A84293BD63B00887D77 /* Debug */,
+				FC821A85293BD63B00887D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC821A86293BD63B00887D77 /* Build configuration list for PBXNativeTarget "Netology_IB_InstrumentsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC821A87293BD63B00887D77 /* Debug */,
+				FC821A88293BD63B00887D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC821A4E293BD63900887D77 /* Project object */;
+}
