@@ -1,10 +1,3 @@
-//
-//  ProfileView.swift
-//  Netology_IB_Instruments
-//
-//  Created by Алексей Колыченков on 04.12.2022.
-//
-
 import UIKit
 
 class ProfileView: UIView {
@@ -14,4 +7,12 @@ class ProfileView: UIView {
     @IBOutlet weak var date: UILabel!
     @IBOutlet weak var city: UILabel!
     @IBOutlet weak var text: UITextView!
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        nameUser.text = "Имя пользователя"
+        date.text = "Дата рождения"
+        city.text = "Город"
+        text.text = "Hello World!"
+    }
 }

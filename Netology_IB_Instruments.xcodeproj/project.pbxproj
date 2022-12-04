@@ -18,6 +18,8 @@
 		FC821A7D293BD63B00887D77 /* Netology_IB_InstrumentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC821A7C293BD63B00887D77 /* Netology_IB_InstrumentsUITestsLaunchTests.swift */; };
 		FC821A8A293C912000887D77 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC821A89293C912000887D77 /* ProfileView.swift */; };
 		FC821A8C293C914E00887D77 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC821A8B293C914E00887D77 /* ProfileView.xib */; };
+		FC889313293D1D560005C66B /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC889312293D1D560005C66B /* Profile.storyboard */; };
+		FC889315293D1D960005C66B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC889314293D1D960005C66B /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		FC821A7C293BD63B00887D77 /* Netology_IB_InstrumentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netology_IB_InstrumentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FC821A89293C912000887D77 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		FC821A8B293C914E00887D77 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		FC889312293D1D560005C66B /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		FC889314293D1D960005C66B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				FC821A67293BD63B00887D77 /* Info.plist */,
 				FC821A89293C912000887D77 /* ProfileView.swift */,
 				FC821A8B293C914E00887D77 /* ProfileView.xib */,
+				FC889312293D1D560005C66B /* Profile.storyboard */,
+				FC889314293D1D960005C66B /* ProfileViewController.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 			files = (
 				FC821A8C293C914E00887D77 /* ProfileView.xib in Resources */,
 				FC821A66293BD63B00887D77 /* LaunchScreen.storyboard in Resources */,
+				FC889313293D1D560005C66B /* Profile.storyboard in Resources */,
 				FC821A63293BD63B00887D77 /* Assets.xcassets in Resources */,
 				FC821A61293BD63900887D77 /* Main.storyboard in Resources */,
 			);
@@ -267,6 +274,7 @@
 			files = (
 				FC821A8A293C912000887D77 /* ProfileView.swift in Sources */,
 				FC821A5E293BD63900887D77 /* ViewController.swift in Sources */,
+				FC889315293D1D960005C66B /* ProfileViewController.swift in Sources */,
 				FC821A5A293BD63900887D77 /* AppDelegate.swift in Sources */,
 				FC821A5C293BD63900887D77 /* SceneDelegate.swift in Sources */,
 			);
